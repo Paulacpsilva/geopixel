@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    color: red;
+    font-size: 80px;
+}
+
+.relogio div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 150px;
+    background: rgb(138, 37, 57);
+    box-shadow: 0px 8px 10px rgba(83, 82, 82, 0.5);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.manipulador_itens {
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(245, 180, 231);
+    color: red;
+    font-size: 20px;
+}
+
+.select_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.input_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.button_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.p_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}

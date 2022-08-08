@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Geopixel</title>
+</head>
+
+<body>
+
+    <div>
+        <div class="relogio">
+            <div>
+                <span id="horas">00</span>
+            </div>
+        </div>
+
+        <div class="manipulador_itens">
+            <div class="select_div">
+                <select id="select" class="selected" onchange="mostarSelecao()">
+                    <option disabled selected>Selecione uma opção</option>
+                    <option>item 1</option>
+                </select>
+            </div>
+            <div class="input_div">
+                <input type="text" id="entrada" placeholder="Insira um item" />
+            </div>
+            <div class="button_div">
+                <button onclick="adicionar()">Adicionar</button>
+                <button onclick="remover()">Remover</button>
+                <button onclick="limpar()">Limpar caixa</button>
+            </div>
+            <div class="p_div">
+                <p id="result"> </p>
+            </div>
+        </div>
+
+        <div class="bola_timida">
+
+        </div>
+
+
+    </div>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
